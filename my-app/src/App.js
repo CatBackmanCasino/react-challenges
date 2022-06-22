@@ -1,9 +1,11 @@
 import css from './App.module.css';
-
+import NavBarSimple from './components/NavBarSimple';
+import SideBar from './components/SideBar';
 function App() {
   return (
     <div className={css.App}>
-      {/* Add your components here */}
+      <div><SideBar /></div>
+      <div><NavBarSimple /></div>
     </div>
   );
 }
